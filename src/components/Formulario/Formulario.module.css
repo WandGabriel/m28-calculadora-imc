@@ -1,0 +1,16 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.header {
+    margin-bottom: 24px;
+}
+
+button, input {
+    margin-bottom: 16px;
+}
