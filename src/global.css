@@ -6,14 +6,16 @@
 }
 
 .container {
-    max-width: 580px;
+    max-width: 400px;
     width: 100%;
     margin: 0 auto;
+    background-color: var(--corDeFundo);
     
 }
 
 :root {
     --corPrincipal: #000;
-    --corDeFundo: #D6CCC2;
+    --corDeFundo: #E3D5CA;
     --corTeste: #D5BDAF;
+    --corDeFundoContainer: #F5EBE0;
 }
