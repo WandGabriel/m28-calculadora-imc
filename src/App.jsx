@@ -1,14 +1,12 @@
 import { useState } from 'react'
-import Formulario from './components/Formulario';
-import TabelaImc from './components/TabelaImc';
+import CalcudadoraIMC from './components/CalculadoraIMC';
 
 import './App.css'
 
 function App() {
   return (
     <>
-      <Formulario />
-      <TabelaImc />
+      <CalcudadoraIMC />
     </>
   )
 }
