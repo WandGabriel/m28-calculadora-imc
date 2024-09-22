@@ -45,10 +45,10 @@ const CalculadoraIMC = () => {
                 <h1 className={styles.header}>Calculadora IMC</h1>
                 <form className={styles.formulario}>
                     <label>Digite sua Altura: </label>
-                    <input type="number" placeholder="Digite sua altura (1.50)" onChange={evento => setAltura(parseFloat(evento.target.value))}/>
+                    <input type="number" value={altura} placeholder="Digite sua altura (1,50)" onChange={evento => setAltura(parseFloat(evento.target.value))}/>
                     <label>Digite o seu Peso: </label>
-                    <input type="number" placeholder="Digite seu peso (70.7)" onChange={evento => setPeso(parseFloat(evento.target.value))}/>
-                    <button className={styles.button} type="button" onClick={calcularImc} >Calcular Imc</button>
+                    <input type="number" value={peso} placeholder="Digite seu peso (70,7)" onChange={evento => setPeso(parseFloat(evento.target.value))}/>
+                    <button className={styles.button} type="button" onClick={calcularImc} >Calcular Imc</button>                    
                     <button type="button" onClick={limparCampos}>Limpar Campos</button>
                     {
                         imc && (
